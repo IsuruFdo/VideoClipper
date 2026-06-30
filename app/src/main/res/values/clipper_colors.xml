@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These four swap automatically in dark mode via values-night/clipper_colors.xml -->
+    <color name="bg_dark">#F5F5F7</color>
+    <color name="surface_dark">#FFFFFF</color>
+    <color name="text_primary">#14161A</color>
+    <color name="text_secondary">#5B6168</color>
+
+    <!-- Brand accents — identical in both modes -->
+    <color name="accent_teal">#22D3EE</color>
+    <color name="accent_purple">#A78BFA</color>
+    <color name="accent_pink">#F472B6</color>
+
+    <!-- Always-dark text for use on bright accent-colored buttons regardless
+         of theme (e.g. dark text on the teal Trim button) -->
+    <color name="on_accent">#0F1115</color>
+</resources>

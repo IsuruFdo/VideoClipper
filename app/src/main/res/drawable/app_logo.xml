@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded-square background, diagonal gradient -->
+    <path android:pathData="M22,0 H86 A22,22 0 0 1 108,22 V86 A22,22 0 0 1 86,108 H22 A22,22 0 0 1 0,86 V22 A22,22 0 0 1 22,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#A78BFA"
+                android:endColor="#22D3EE" />
+        </aapt:attr>
+    </path>
+
+    <!-- Clipped-corner frame -->
+    <path
+        android:pathData="M32,24 L70,24 L84,38 L84,76 A8,8 0 0 1 76,84 L32,84 A8,8 0 0 1 24,76 L24,32 A8,8 0 0 1 32,24 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Play triangle -->
+    <path
+        android:pathData="M44,40 L44,68 L66,54 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Accent dot -->
+    <path
+        android:pathData="M74,31 A4,4 0 1 1 82,31 A4,4 0 1 1 74,31 Z"
+        android:fillColor="#F472B6" />
+</vector>

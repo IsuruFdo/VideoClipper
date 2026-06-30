@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clipped-corner frame: a video frame with its corner literally cut off -->
+    <path
+        android:pathData="M32,24 L70,24 L84,38 L84,76 A8,8 0 0 1 76,84 L32,84 A8,8 0 0 1 24,76 L24,32 A8,8 0 0 1 32,24 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Play triangle -->
+    <path
+        android:pathData="M44,40 L44,68 L66,54 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Accent dot sitting right on the clipped corner -->
+    <path
+        android:pathData="M74,31 A4,4 0 1 1 82,31 A4,4 0 1 1 74,31 Z"
+        android:fillColor="#F472B6" />
+</vector>
